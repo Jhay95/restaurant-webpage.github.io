@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Special Elite', cursive;
+}
+
+/*---- Navigation Bar ----*/
+.navbar {
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    background: rgba(158, 155, 155, 0.6)!important;
+}
+
+
+/*---- Landing Page ----*/
+#landing {
+    background-image:url(/restaurant-webpage.github.io/images/h1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.overlay {
+    background: rgba(153, 148, 148, 0.6);
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+  }
+
+
+
+/*---- About Us ----*/
+#about {
+    width: 100%;
+    height: 40%;
+    background-color: lightblue;
+}
+
+
+#about .heading-underline {
+height: 5vh;
+}
+
+#about .row {
+    padding: 0 10px 20px 10px;
+    }
+
+
+
+/*---- Our Menu ----*/
+
+
+#menu {
+    width: 100%;
+    height: 40%;
+    background-image: url(/restaurant-webpage.github.io/images/m1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+div.jumbotron {
+    background-color: rgba(241, 196, 45, 0.938);
+    height: 40%;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+
+/*---- Contact ----*/
+#contact ul li{
+    display: inline;
+    list-style: none;
+}
+
+#contact .col-md-5 {
+    padding-left: 15px;
+}
+#contact li img{
+    width: 130px;
+    padding: 10px 15px 15px 20px;
+}
+
+
+
+
+/*---- Dish ----*/
+#dish {
+    width: 100%;
+    height: 10%;
+    background-image: url(/restaurant-webpage.github.io/images/d3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#dish h1 {
+    padding-bottom: 50px;
+    text-decoration: black;
+}
+
+#dish img {
+    padding-bottom: 30px;
+}
+/*---- Food Fusion ----*/
+#fusion {
+    width: 100%;
+    height: 20%;
+    background-color: lightblue;
+}
+
+#fusion h1 {
+    padding-bottom: 20px;
+    text-decoration: black;
+}
+
+#fusion img {
+    box-sizing: border-box;
+    border: cornflowerblue;
+    border-radius: 10px;
+    padding: 20px 0 30px 0;
+}
+
+
+/*---- Main Cuisine ----*/
+#cuisine {
+    width: 100%;
+    height: 20%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#cuisine h1 {
+    padding-bottom: 25px;
+    text-decoration: black;
+}
+
+#cuisine img {
+    padding: 0 0 0 0;
+}
+
+footer {
+    background-color: rgba(241, 196, 45, 0.938);
+    color: black;
+    height: 40px;
+}
+
+footer p {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
